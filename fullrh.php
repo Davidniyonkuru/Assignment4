@@ -1,0 +1,22 @@
+<?php
+for($i=0;$i<5;$i++){
+    for($j=0;$j<5-$i-1;$j++){
+    echo"&nbsp;&nbsp;";
+    } 
+    for($k=0;$k<2*$i+1;$k++){
+    echo"*";
+    }
+    echo"<br>";
+}
+
+for($j=0;$j<5;$j++)
+{
+   for($i=0;$i<=$j;$i++){
+    echo"&nbsp;&nbsp;";
+   }
+   for($k=0;$k<2*(5-$i)-1;$k++){
+    echo"*";
+   }
+   echo"<br>";
+}
+?>
